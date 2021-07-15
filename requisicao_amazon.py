@@ -19,7 +19,7 @@ site = requests.get(url)
 soup = BeautifulSoup(site.content, 'html.parser').get_text()
 numero_paginas = 1
 
-#iterando os preços dos iphones
+#interando os preços dos iphones
 
 site = requests.get(url)
 soup = BeautifulSoup(site.content, 'html.parser')
